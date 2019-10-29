@@ -34,7 +34,8 @@ import random
 import os.path              
     
 import example0, example1, example2, example3
-import example4, example5, example6, example7, example8
+import example4, example5, example6, example7, example8, Julie
+import Julie
 
 #betray = example1
 #collude = example0
