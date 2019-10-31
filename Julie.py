@@ -1,4 +1,4 @@
-team_name = 'Julie'
+team_name = 'Julianna'
 strategy_name = 'Collude but retaliate'
 strategy_description = '''\
 Collude first round. Collude, except in a round after getting 
@@ -20,7 +20,7 @@ def move(my_history, their_history, my_score, their_score):
     if 'b' in their_history[-10:]: # If the other player has betrayed within last 10 rounds, 
         return 'b'               # Betray.
     else:
-        if random.random()<0.10: # 10% of the other rounds
+        if random.random()<0.15: # 10% of the other rounds
             return 'b'         # Betray
         else:
             return 'c'         # but 90% of the time collude
